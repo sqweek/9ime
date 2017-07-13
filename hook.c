@@ -4,6 +4,7 @@
 
 #include "common.h"
 
+/* A Node is either a branch (.type = 'B') or leaf (.type = 'L') */
 typedef struct Node_ {
 	char type;
 	union {
@@ -15,6 +16,7 @@ typedef struct Node_ {
 	} u;
 } Node;
 
+/* A Step represents a link to another Node. */
 typedef struct Step_ {
 	char ch;
 	struct Node_ next;
@@ -28,6 +30,7 @@ Node root =
 #include "kbd.h"
 ;
 
+/* The maximum number of characters we're willing to "hold", or buffer, before giving up. */
 #define MAXHOLD 16
 
 typedef struct HeldChar_ {
@@ -36,12 +39,13 @@ typedef struct HeldChar_ {
 } HeldChar;
 
 struct {
+	/* Mode can be '\0' for "waiting", 'T' for "traversing nodes" or 'X' for "heXadecimal input" */
 	char mode;
 	union {
 		Node *node;
 		struct {
 			short count;
-			char digit[5];
+			char digit[5]; /* digit[4] serves as a NUL terminator; it's never written */
 		} hex;
 	} u;
 	int nheld;
@@ -69,6 +73,7 @@ node_walk(Node *node, char c)
 	return NULL;
 }
 
+/* Adds a character to the held list. Returns 0 if it won't fit. */
 int
 hold(KBDLLHOOKSTRUCT *khook, char ch)
 {
