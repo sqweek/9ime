@@ -40,7 +40,7 @@ The sequence for each character is often intuitive -- here's some ground rules:
 1. Repeating a character gives you a variant of that character
     * !! becomes ¡
     * || becomes ¦
-    * >> becomes »
+    * \>\> becomes »
     * == becomes ≡
 2. For accents, the accent comes _before_ the character
     * \`A becomes À  (\` = grave)
