@@ -101,8 +101,8 @@ cchr(char c)
 	static char buf[8];
 	if (c < 27) {
 		sprintf(buf, "\\%03o");
-	} else if (c == '\'') {
-		sprintf(buf, "\\'");
+	} else if (c == '\'' || c == '\\') {
+		sprintf(buf, "\\%c", c);
 	} else {
 		sprintf(buf, "%c", c);
 	}

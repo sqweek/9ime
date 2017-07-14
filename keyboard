@@ -138,7 +138,7 @@
 012E  ,I          Į	latin capital letter i ogonek
 012F  ,i          į	latin small letter i ogonek
 0130  .I          İ	latin capital letter i dot
-0131   i          ı	latin small letter dotless i
+0131  i.          ı	latin small letter dotless i
 0132  IJ          Ĳ	latin capital letter i j
 0133  ij          ĳ	latin small letter i j
 0134  ^J          Ĵ	latin capital letter j circumflex
@@ -750,6 +750,107 @@
 30FA  kvo         ヺ	katakana letter vo
 30FB  k.          ・	katakana middle dot
 30FC  k-          ー	katakana-hiragana prolonged sound mark
+FF01   !            ！	fullwidth exclamation mark
+FF02   "            ＂	fullwidth quotation mark
+FF03   #            ＃	fullwidth number sign
+FF04   $$            ＄	fullwidth dollar sign
+FF05   %            ％	fullwidth percent sign
+FF06   &            ＆	fullwidth ampersand
+FF07   '            ＇	fullwidth apostrophe
+FF08   (            （	fullwidth left parenthesis
+FF09   )            ）	fullwidth right parenthesis
+FF0A   *            ＊	fullwidth asterisk
+FF0B   +            ＋	fullwidth plus sign
+FF0C   ,            ，	fullwidth comma
+FF0D   -            －	fullwidth hyphen-minus
+FF0E   .            ．	fullwidth full stop
+FF0F   /            ／	fullwidth solidus
+FF10   0            ０	fullwidth digit zero
+FF11   1            １	fullwidth digit one
+FF12   2            ２	fullwidth digit two
+FF13   3            ３	fullwidth digit three
+FF14   4            ４	fullwidth digit four
+FF15   5            ５	fullwidth digit five
+FF16   6            ６	fullwidth digit six
+FF17   7            ７	fullwidth digit seven
+FF18   8            ８	fullwidth digit eight
+FF19   9            ９	fullwidth digit nine
+FF1A   :            ：	fullwidth colon
+FF1B   ;            ；	fullwidth semicolon
+FF1C   <            ＜	fullwidth less-than sign
+FF1D   =            ＝	fullwidth equals sign
+FF1E   >            ＞	fullwidth greater-than sign
+FF1F   ?            ？	fullwidth question mark
+FF20   @            ＠	fullwidth commercial at
+FF21   A            Ａ	fullwidth latin capital letter a
+FF22   B            Ｂ	fullwidth latin capital letter b
+FF23   C            Ｃ	fullwidth latin capital letter c
+FF24   D            Ｄ	fullwidth latin capital letter d
+FF25   E            Ｅ	fullwidth latin capital letter e
+FF26   F            Ｆ	fullwidth latin capital letter f
+FF27   G            Ｇ	fullwidth latin capital letter g
+FF28   H            Ｈ	fullwidth latin capital letter h
+FF29   I            Ｉ	fullwidth latin capital letter i
+FF2A   J            Ｊ	fullwidth latin capital letter j
+FF2B   K            Ｋ	fullwidth latin capital letter k
+FF2C   L            Ｌ	fullwidth latin capital letter l
+FF2D   M            Ｍ	fullwidth latin capital letter m
+FF2E   N            Ｎ	fullwidth latin capital letter n
+FF2F   O            Ｏ	fullwidth latin capital letter o
+FF30   P            Ｐ	fullwidth latin capital letter p
+FF31   Q            Ｑ	fullwidth latin capital letter q
+FF32   R            Ｒ	fullwidth latin capital letter r
+FF33   S            Ｓ	fullwidth latin capital letter s
+FF34   T            Ｔ	fullwidth latin capital letter t
+FF35   U            Ｕ	fullwidth latin capital letter u
+FF36   V            Ｖ	fullwidth latin capital letter v
+FF37   W            Ｗ	fullwidth latin capital letter w
+FF38   X            Ｘ	fullwidth latin capital letter x
+FF39   Y            Ｙ	fullwidth latin capital letter y
+FF3A   Z            Ｚ	fullwidth latin capital letter z
+FF3B   [            ［	fullwidth left square bracket
+FF3C   \            ＼	fullwidth reverse solidus
+FF3D   ]            ］	fullwidth right square bracket
+FF3E   ^            ＾	fullwidth circumflex accent
+FF3F   __           ＿	fullwidth low line
+FF40   `            ｀	fullwidth grave accent
+FF41   a            ａ	fullwidth latin small letter a;ff21
+FF42   b            ｂ	fullwidth latin small letter b;ff22
+FF43   c            ｃ	fullwidth latin small letter c;ff23
+FF44   d            ｄ	fullwidth latin small letter d;ff24
+FF45   e            ｅ	fullwidth latin small letter e;ff25
+FF46   f            ｆ	fullwidth latin small letter f;ff26
+FF47   g            ｇ	fullwidth latin small letter g;ff27
+FF48   h            ｈ	fullwidth latin small letter h;ff28
+FF49   i            ｉ	fullwidth latin small letter i;ff29
+FF4A   j            ｊ	fullwidth latin small letter j;ff2a
+FF4B   k            ｋ	fullwidth latin small letter k;ff2b
+FF4C   l            ｌ	fullwidth latin small letter l;ff2c
+FF4D   m            ｍ	fullwidth latin small letter m;ff2d
+FF4E   n            ｎ	fullwidth latin small letter n;ff2e
+FF4F   o            ｏ	fullwidth latin small letter o;ff2f
+FF50   p            ｐ	fullwidth latin small letter p;ff30
+FF51   q            ｑ	fullwidth latin small letter q;ff31
+FF52   r            ｒ	fullwidth latin small letter r;ff32
+FF53   s            ｓ	fullwidth latin small letter s;ff33
+FF54   t            ｔ	fullwidth latin small letter t;ff34
+FF55   u            ｕ	fullwidth latin small letter u;ff35
+FF56   v            ｖ	fullwidth latin small letter v;ff36
+FF57   w            ｗ	fullwidth latin small letter w;ff37
+FF58   x            ｘ	fullwidth latin small letter x;ff38
+FF59   y            ｙ	fullwidth latin small letter y;ff39
+FF5A   z            ｚ	fullwidth latin small letter z;ff3a
+FF5B   {            ｛	fullwidth left curly bracket
+FF5C   |            ｜	fullwidth vertical line
+FF5D   }            ｝	fullwidth right curly bracket
+FF5E   ~            ～	fullwidth tilde
+FFE0   $c            ￠	fullwidth cent sign
+FFE1   $l            ￡	fullwidth pound sign
+FFE2   _!            ￢	fullwidth not sign
+FFE3   _^            ￣	fullwidth macron
+FFE4   _|            ￤	fullwidth broken bar
+FFE5   $y            ￥	fullwidth yen sign
+FFE6   $w            ￦	fullwidth won sign
 F015  ZA          	raw alt (plan 9 specific)
 F016  ZS          	raw shift (plan 9 specific)
 F017  ZC          	raw ctl (plan 9 specific)

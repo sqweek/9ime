@@ -33,7 +33,10 @@ The shipped `keyboard` file is essentially the one from [9fans/plan9port](https:
 * Chess (eg. ♔ ♛ ♝)
 * Music (eg. ♩ ♭ ♯)
 
-Plus some additions of my own for Japanese (hiragana and katakana, eg. わたし わ の なまえ わ スクヰーク です).
+Plus some additions of my own:
+
+* Japanese (eg. わたし わ の なまえ わ スクヰーク です)
+* Fullwidth (eg. ＰＬＡＮ９)
 
 The sequence for each character is often intuitive -- here's some ground rules:
 
@@ -70,3 +73,9 @@ The sequence for each character is often intuitive -- here's some ground rules:
 6. Katakana is prefixed by a k
     * kti becomes チ (note "ti" not "chi")
     * Kyu becomes ュ
+7. Fullwidth is prefixed by a space
+    * ` k` becomes ｋ
+    * ` __` becomes ＿
+    * ` _^` becomes  ￣
+
+For full details open the [keyboard](keyboard) file itself.
