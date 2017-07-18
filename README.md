@@ -78,4 +78,4 @@ The sequence for each character is often intuitive -- here's some ground rules:
     * ` __` becomes ＿
     * ` _^` becomes  ￣
 
-For full details open the [keyboard](keyboard) file itself.
+For full details open the [keyboard](lib/keyboard) file itself.
